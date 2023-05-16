@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>LOGGIN</title>
+</head>
+
+<body>
+    <main id="container">
+        <form id="login_form">
+                <!-- FORM HEADER -->
+            <div id="form_header">
+                <h1>login</h1>
+
+                <ion-icon id="" name="moon-outline" class="moon-outline icon"></ion-icon>
+
+                <ion-icon id="" name="sunny-outline" class="sunny-outline escondido icon"></ion-icon>
+            </div>
+
+
+                  <!-- SOCIAL MEDIA LINKS -->
+            <div id="social_media">
+                     <!-- FACEBOOK -->
+                <a href="#">
+                    <img src="./imag/facebook.png" alt="facebook"></a>
+                         <!-- GITHUB -->
+                <a class="git" href=" #">
+                    <img src="./imag/git.png" alt="git"></a>
+                     <!-- GOOGLE -->
+                <a href=" #">
+                    <img src="./imag/google.png" alt="google"></a>
+            </div>
+              <!-- INPUTS -->
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                     <!-- EMAIL -->
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <ion-icon name="mail-open-outline"></ion-icon>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                    <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="passoword">
+                        E-mail
+                        <div class="input-field">
+                            <ion-icon name="key-outline"></ion-icon>
+                            <input type="password" id="passoword" name="passoword">
+                        </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">
+                            forgot you password
+                        </a>
+                    </div>
+                </div>
+            </div>
+                   <!-- LOGIN BUTTON -->
+            <button id="login_button" type="submit">login</button>
+        </form>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
